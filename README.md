@@ -18,7 +18,7 @@ using Rest GET endpoint and then render the json array response, filter them by 
 2. Run the following commands :
   git clone https://github.com/Boburmirzo/axiom-mobile-handset.git
   
-  This app can be run both as normal **spring boot** project or as **docker image**.
+  This app can be run both as normal **spring boot** project
 ### Spring-Boot App Run:
 1. Move to the mobile folder i.e. root folder of the app where pom is placed.
 2. Run command mvn clean install spring-boot:run
