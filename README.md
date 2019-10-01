@@ -23,7 +23,7 @@ using Rest GET endpoint and then render the json array response, filter them by 
 1. Move to the mobile folder i.e. root folder of the app where pom is placed.
 2. Run command mvn clean install spring-boot:run
 
-### Scenario -1 (My Personal Repo)
+### Scenario -1 (Get Mobile handset)
 **Sample Endpoint** : http://localhost:8080/mobile/search/ GET :
 **Sample Output** : [
     {
@@ -44,7 +44,7 @@ using Rest GET endpoint and then render the json array response, filter them by 
     }
     },
     ...]
-### Scenario -2 (Test Repo)
+### Scenario -2 (Get Mobile handset with filter)
 **Sample Endpoint with filter** : http://localhost:8080/mobile/search/?id=25846 GET :
 **Sample Output** : [
     {
